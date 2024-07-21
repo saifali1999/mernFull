@@ -1,0 +1,70 @@
+
+ .container3 .header{
+    background: transparent url(../../../public/homeimages/banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    position: relative;
+    z-index: 1;
+}
+
+.services-section{
+    position: relative;
+    background: linear-gradient(to left bottom,#fffcff,#fbfaff,#effbff,#e0fdff,#d5fefd);
+    z-index: 1;
+    padding-bottom: 102px;
+    
+}
+ .services-section .box{
+    position: relative;
+    text-align: center;
+    margin-bottom: -65px;
+    padding: 30px 25px;
+    background-color: #fff;
+    transition: .5s;
+    margin-top: 87px;
+    overflow: hidden;
+
+}
+
+.services-section .box:before{
+    content: "";
+    position: absolute;
+    left: -15px;
+    bottom: -15px;
+    width: 30px;
+    height: 30px;
+    transition: .5s;
+    transform: rotate(45deg);
+    background: #44ce6f;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.services-section .box:hover:before{
+opacity: 1;
+visibility: visible;
+}
+
+.services-section h3 a{
+    text-decoration: none;
+    color: #0e314c;
+    transition: .5s;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+ .services-section h3 a:hover{
+    color: #44ce6f;
+}
+
+.services-section p{
+    color: #6084a4;
+    line-height: 1.8;
+    max-width: 318px;
+    
+}
+
+/* .servicespage .services-section .services-cards {
+    text-align: center;
+} */
